@@ -1,5 +1,5 @@
 body {
-  background-color: #BA55D3;
+  background-color: #B0E0E6;
   font-family: "Comic Sans MS", "Comic Sans", sans-serif;
   text-align: center;
   padding: 40px;
@@ -8,4 +8,6 @@ body {
 h1 {
   color: #FFFAFA;
 }
-
+p1 {
+  color: #FFFAFA;
+}
