@@ -1,13 +1,62 @@
 body {
-  background-color: #B0E0E6;
-  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
-  text-align: center;
-  padding: 40px;
-}
-
-h1 {
-  color: #FFFAFA;
-}
-p {
-  color: #FFFAFA;
-}
+    background-color: #81e4f1;
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+    margin: 0;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #f8f8f8;
+    margin-bottom: 40px;
+  }
+  
+  /* Containers */
+  .container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Caixinhas */
+  .box {
+    background-color: #e3f8fb;
+    border-radius: 20px;
+    padding: 20px;
+    width: 250px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+  }
+  
+  .box h2 {
+    color: #fcb6d2;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .box p {
+    color: #555;
+  }
+  
+  /* Botões fofos */
+  .botao {
+    background-color: #fcb6d2;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 15px;
+    display: inline-block;
+    transition: 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .botao:hover {
+    background-color: #f78bb8;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
